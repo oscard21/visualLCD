@@ -3,17 +3,17 @@
 Este script fue desarrollado para poder analizar las monedas o tokens de futuros de Binance para poder operar con LCD en ellas.
 
 **Como usar el script**
-- Descargar python [Aqui](https://www.python.org/ "Aqui")
-- Descargar y modificar el Archivo config.py, el archivo lo puedes modificar con sublime text, el cual puedes descargar [Aqui](https://www.sublimetext.com/ "Aqui")
-- Modifica el numero de dias de acuerdo al analisis que deseas hacer.
+- Descargar python [Aqui](https://www.python.org/downloads/ "Aqui")
+- Como no requiere de llaves de API se eliminaron
+- Instale las librerias necesarias con el siguiente comando:
 ```python
-API_KEY = ''
-API_SECRET = ''
-
-dias = 7  #Numero de dias a analizar de cada moneda o token
+pip install -r requirements.txt
 ```
-- Una vez guardado el archivo debes ejecutarlo desde una terminal de windows o de tu sistema operativo que uses con el siguiente comando.
-`python script.py`
+- Una vez guardado el archivo debes ejecutarlo desde una terminal de tu sistema operativo que uses con el siguiente comando:
+`python main.py`
+- Para editarlo les recomiendo VSCode [Aqui](https://code.visualstudio.com/ "Aqui")
+- La interfaz grafica usa el Framework Flet, para Linux requiere un paso adicional [Aqui](https://flet.dev/docs/guides/python/getting-started/ "Aqui")
+- Si desea volverlo un ejecutable siga las instrucciones [Aqui](https://flet.dev/docs/guides/python/packaging-desktop-app/ "Aqui")
 
 #### Contact
 - Twitter: [https://twitter.com/ElGafasTrading](https://twitter.com/ElGafasTrading "https://twitter.com/ElGafasTrading")
