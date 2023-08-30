@@ -15,7 +15,3 @@ pip install -r requirements.txt
 - La interfaz grafica usa el Framework Flet, para Linux requiere un paso adicional [Aqui](https://flet.dev/docs/guides/python/getting-started/ "Aqui")
 - Si desea volverlo un ejecutable siga las instrucciones [Aqui](https://flet.dev/docs/guides/python/packaging-desktop-app/ "Aqui")
 <img src="assets/main_py.png" width="80%" />
-#### Contact
-- Twitter: [https://twitter.com/ElGafasTrading](https://twitter.com/ElGafasTrading "https://twitter.com/ElGafasTrading")
-- Instagram: [https://www.instagram.com/elgafastrading/](https://www.instagram.com/elgafastrading/ "https://www.instagram.com/elgafastrading/")
-- Youtube: [https://www.youtube.com/@ElGafasTrading](https://www.youtube.com/@ElGafasTrading "https://www.youtube.com/@ElGafasTrading")
