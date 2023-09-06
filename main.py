@@ -28,7 +28,7 @@ def main(page: ft.Page):
         page.update()
 
         # Trae la información del exchange
-        logging.info('Trayendo la información del exchange...')
+        logging.info('Obteniendo información del exchange...')
         negativos, positivos = exchange.get_result(ui_dias.value)
 
         # Coloca el count en los titulos

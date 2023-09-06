@@ -27,9 +27,8 @@ class Binance():
         for symbol in symbols:
             klines = self.client.klines(
                 symbol=symbol, interval=interval, limit=dias)
-            nKlines = len(klines) - 1
             old_close = float(klines[0][4])
-            new_close = float(klines[nKlines][4])
+            new_close = float(klines[-1][4])
             percent = round((new_close - old_close) / old_close * 100, 2)
             item = {'symbol': symbol, 'old': old_close,
                     'new': new_close, 'percent': percent}
